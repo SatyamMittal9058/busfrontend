@@ -33,7 +33,7 @@ function AdminBuses() {
   const deleteBus = async (id) => {
     try {
       dispatch(ShowLoading());
-      const response = await axiosInstance.post("/api/buses/delete-bus", {
+      const response = await axiosInstance.post(`${url}/api/buses/delete-bus`, {
         _id: id,
       });
       dispatch(HideLoading());

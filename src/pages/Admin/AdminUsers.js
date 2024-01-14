@@ -1,10 +1,10 @@
 import { message, Table } from "antd";
-import axios from "axios";
-import moment from "moment";
+
+
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { url } from "../../api_links";
-import BusForm from "../../components/BusForm";
+
 import PageTitle from "../../components/PageTitle";
 import { axiosInstance } from "../../helpers/axiosInstance";
 import { HideLoading, ShowLoading } from "../../redux/alertsSlice";
@@ -57,7 +57,7 @@ function AdminUsers() {
 
       dispatch(ShowLoading());
       const response = await axiosInstance.post(
-        "/api/users/update-user-permissions",
+        `${url}/api/users/update-user-permissions`,
         payload
       );
       dispatch(HideLoading());

@@ -47,7 +47,7 @@ function BusForm({
     <Modal
       width={800}
       title={type === "add" ? "Add Bus" : "Update Bus"}
-      visible={showBusForm}
+      open={showBusForm}
       onCancel={() => {
         setSelectedBus(null);
         setShowBusForm(false);
