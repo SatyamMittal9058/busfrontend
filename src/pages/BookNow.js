@@ -1,6 +1,6 @@
 import { Col, message, Row } from "antd";
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import SeatSelection from "../components/SeatSelection";
 import { axiosInstance } from "../helpers/axiosInstance";

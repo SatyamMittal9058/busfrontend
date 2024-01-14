@@ -8,7 +8,6 @@ import '../resourses/auth.css'
 import { url } from "../api_links";
 
 function Login() {
-  const navigate = useNavigate();
   const dispatch = useDispatch();
   const onFinish = async (values) => {
     try {

@@ -1,1 +1,1 @@
-export const url=" https://wandering-dirndl-ray.cyclic.app"
+export const url="https://itchy-bedclothes-toad.cyclic.app"
