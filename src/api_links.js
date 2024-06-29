@@ -1,1 +1,1 @@
-export const url="https://itchy-bedclothes-toad.cyclic.app"
+export const url="https://busbackend-1.onrender.com"
